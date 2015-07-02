@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="陈家祠" />
+
+    <ImageView
+        android:layout_below="@id/tv"
+        android:id="@+id/imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        
+        android:scaleType="fitXY" />
+
+     <Button
+       
+       android:id="@+id/second_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:gravity="center"
+       android:layout_alignParentBottom="true"
+    
+       android:text="开始讲解"></Button>
+
+</RelativeLayout>
+<!-- From: file:/E:/AndroidStudio/AndroidStudioProjects/GuideApp2/app/src/main/res/layout/activity_second.xml -->

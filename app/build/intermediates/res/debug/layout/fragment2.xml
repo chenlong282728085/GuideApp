@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/liner"
+   android:gravity="center"
+    >
+    <ImageView
+       
+     
+        android:id="@+id/fragment2_image01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        />
+    <ImageView
+       
+    
+        android:id="@+id/fragment2_image02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        />
+</LinearLayout>
+<ImageView
+       
+    android:layout_below="@id/liner"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+        android:id="@+id/fragment2_image03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        />
+
+</RelativeLayout>
+<!-- From: file:/E:/AndroidStudio/AndroidStudioProjects/GuideApp2/app/src/main/res/layout/fragment2.xml -->
